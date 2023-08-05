@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 - name: add 703n-dts
-      run: |
+      run: 
         cd openwrt/target/linux/ath79/dts
         sed -i 's/0x3d0000/0xfd0000/' ar9331_tplink_tl-wr703n_tl-mr10u.dtsi
         sed -i 's/0x3f0000/0xff0000/' ar9331_tplink_tl-wr703n_tl-mr10u.dtsi
