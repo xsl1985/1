@@ -6,7 +6,7 @@
         cd ../image
         cat >> generic-tp-link.mk <<EOF
         define Device/tplink_tl-wr703n
-        aaaaa\$(Device/tplink-4mlzma)
+        aaaaa\$(Device/tplink-8mlzma)
         aaaaaSOC := ar9331
         aaaaaDEVICE_MODEL := TL-WR703N
         aaaaaDEVICE_PACKAGES := kmod-usb-chipidea2
